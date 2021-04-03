@@ -11,12 +11,15 @@ function PlayerMessage (props) {
                 <span style={{fontSize: "26px", paddingTop: "1em"}}>YOU WON!</span>
                 <br></br>
                 <br></br>
-                <button className="btn btn-reset"
-                    onClick={() => {window.history.pushState({}, '','/project-battleship'); window.location.reload()}}>
-                Restart Game</button>
+                <a style={{textDecoration: "none"}} href="https://jeffersonis.github.io/project-battleship">
+                    <button className="btn btn-reset">
+                    Restart Game</button>
+                </a>
             </div>
             </div>
     )
 }
 
 export default PlayerMessage;
+
+//onClick={() => {window.history.pushState({}, '','/project-battleship'); window.location.reload()}}>
