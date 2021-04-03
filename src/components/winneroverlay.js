@@ -12,7 +12,7 @@ function PlayerMessage (props) {
                 <br></br>
                 <br></br>
                 <button className="btn btn-reset"
-                    onClick={() => {window.history.pushState({}, '','/'); window.location.reload()}}>
+                    onClick={() => {window.history.pushState({}, '','/project-battleship'); window.location.reload()}}>
                 Restart Game</button>
             </div>
             </div>
