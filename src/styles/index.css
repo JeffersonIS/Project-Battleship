@@ -206,6 +206,11 @@ width: 23.5em;
   padding-bottom: .75em;
 }
 
+@keyframes player-overlay-fade {
+  0%{opacity: 0%}
+100%{opacity: 100%}
+}
+
 .player-overlay{
     position: absolute;
     top: -.05em;
@@ -230,10 +235,6 @@ width: 23.5em;
   box-shadow: .1em .1em .25em rgb(129, 129, 129);
 }
 
-@keyframes player-overlay-fade {
-  0%{opacity: 0%}
-100%{opacity: 100%}
-}
 
 .player-overlay-text{
   position: absolute;
@@ -248,6 +249,10 @@ width: 23.5em;
 .row {
 display: flex;
 flex-direction: row;
+}
+
+.radio-toolbar input{
+  color: red;
 }
 
 
@@ -342,6 +347,10 @@ fill:rgb(34, 0, 255);
 /*when the browser window is 800px wide or less:
 changes the layout into columns*/
 @media only screen and (max-width: 850px) {
+  .boat-selector-item{
+    padding:0;
+  }
+
   .row{
     flex-direction: column;
   }
