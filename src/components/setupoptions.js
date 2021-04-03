@@ -5,14 +5,15 @@ function SetupOptions (props) {
 
     return(
         <div className="setup-options-container">
-            <input type="radio" name="axis-placement" id="vertical-axis" value="vertical" defaultChecked={true}
-                    onClick={props.axisPlacementClick}></input>
-            <label htmlFor="vertical-axis">Vertical</label>
+            <div className="radio-toolbar">
+                <input type="radio" name="axis-placement" id="vertical-axis" value="vertical" defaultChecked={true}
+                        onClick={props.axisPlacementClick}></input>
+                <label htmlFor="vertical-axis">Vertical</label>
 
-            <input type="radio" name="axis-placement" id="horizontal-axis" value="horizontal"
-                    onClick={props.axisPlacementClick}></input>
-            <label htmlFor="horizonal-axis">Horizontal</label>
-
+                <input type="radio" name="axis-placement" id="horizontal-axis" value="horizontal"
+                        onClick={props.axisPlacementClick}></input>
+                <label htmlFor="horizonal-axis">Horizontal</label>
+            </div>
             <div>
                 <button className="btn btn-clear-boats"
                         onClick={props.resetClick}>

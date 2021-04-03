@@ -13,7 +13,7 @@ function App () {
         <div>
             <Header></Header>
             <Game></Game>
-            <Footer>Hello</Footer>
+            <Footer></Footer>
         </div>
     )
 }
