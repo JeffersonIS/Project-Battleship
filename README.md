@@ -1,71 +1,31 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Project Battleship
+
+Built by Jefferson Ostler
+IS 542 - Web Development Final Semester Project
+
+### Description
+
+Project Battleship is a completely function React.js Battleship 2 player game. The players would need to be at the same computer in order to play against each other. It was not within the project's scope (or my knowledge) to build out a server for two remote individuals to duel each other. I decided to make this my semester project when, for an interview, I was asked to build the logic out for a Minesweeper game (the one with the exploding bombs). That interview showed me how to manipulate a grid and update it based on user input, so the idea for this battleship game was born. I added some fun in-game "analytics" for fun.
+
+### Architecture
+
+The project is built entirely in React.js. For this project I focused primarily on the logic portion of the code. I made the user design sleek and simple. The majority of the setup and game logic is controlled in the <Game> component, which lives close to the top of the component heirarchy. The game setup logic makes up roughly 75% of all of the apps logic, which was surprising to me
+Style of the grid squares is manipulated through object.
+
+### What I learned
+I learned loads.
+- I learned how to better design a build on paper before actually going and touching the keyboard.
+- I learned how to design and build in small sprints.
+- I learned about the importance of the console.
+- I learned that I can do this! It was awesome to build something like this, that pushed me and expanded my limits.
+- I learned how to let the project evolve over time and be able to adjust in changes to initial thoughts and wants.
+- I learned to have fun and rejoice when things worked!
+- I learned how easy it is to publish and deploy to github pages :)
+
+### Future Modificiations
+For the future I want to see if I can make this a server-based remote game, where to random people can join a room, create a session and play head-to-head battleship while not being at the same computer.
+Styling and user friendliness would be enhanced.
+Fix the fade effect.
+
+
+
